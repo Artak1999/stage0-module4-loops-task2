@@ -9,7 +9,9 @@ public class PowerOfTwo {
                 i++;
             }
         }
-        else
+        else if(power < 0)
             System.out.println("too much power");
+        else
+            System.out.println(1);
     }
 }

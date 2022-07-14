@@ -11,12 +11,14 @@ public class Multiplication {
                 i--;
             }
         }
-        else{
+        else if(multiplyByAndToInclusive > 0){
             while(i <= multiplyByAndToInclusive){
                 System.out.println(numbers);
                 numbers += 5;
                 i++;
             }
         }
+        else
+            System.out.print("");
     }
 }
